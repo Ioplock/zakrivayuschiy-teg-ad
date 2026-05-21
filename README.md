@@ -1,1 +1,1 @@
-https://ioplock.github.io/zakrivayuschiy-teg-ad/
+https://github.com/Ioplock/zakrivayuschiy-teg-ad
