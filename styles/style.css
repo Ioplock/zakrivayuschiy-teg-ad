@@ -32,10 +32,8 @@
 }
 
 .header__logo {
-  color: inherit;
   font-size: clamp(3.0625rem, 2.7102rem + 1.5023vw, 4.0625rem);
   line-height: 1;
-  text-decoration: none;
 }
 
 .header__title {
