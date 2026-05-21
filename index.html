@@ -544,7 +544,12 @@
         </article>
       </section>
 
-      <button class="button save-button" type="button">
+      <button
+        class="button save-button"
+        type="button"
+        onclick="window['dialog'].showModal(); return false;"
+        aria-controls="dialog"
+      >
         <svg class="floppy-icon save-button__icon" aria-hidden="true">
           <use href="./svg/floppy.svg#floppy"></use>
         </svg>
@@ -552,19 +557,22 @@
       </button>
     </main>
 
-    <dialog class="memory-dialog">
+    <dialog class="memory-dialog" id="dialog">
       <div class="memory-dialog__body">
         <svg class="floppy-icon memory-dialog__icon" aria-hidden="true">
           <use href="./svg/floppy.svg#floppy"></use>
         </svg>
         <p class="memory-dialog__text">Вставьте дискету, чтобы продолжить</p>
       </div>
-      <button class="button memory-dialog__button" type="button">
+      <button
+        class="button memory-dialog__button"
+        type="button"
+        onclick="window['dialog'].close(); return false;"
+      >
         <span class="button__text">ОК</span>
       </button>
     </dialog>
 
     <script src="./scripts/like.js"></script>
-    <script src="./scripts/dialog.js"></script>
   </body>
 </html>
