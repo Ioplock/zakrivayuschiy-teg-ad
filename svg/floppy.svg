@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40">
+  <symbol id="floppy" viewBox="0 0 40 40">
+    <path
+      d="M0 0h33v3h3v3h3v34H0V0Zm3 3v34h33V7h-3v12H7V3H3Zm7 0v13h20V3h-4v9h-3V3H10Zm0 21v13h20V24H10Zm3 3h14v3H13v-3Zm0 6h14v3H13v-3Z"
+    />
+  </symbol>
+</svg>
